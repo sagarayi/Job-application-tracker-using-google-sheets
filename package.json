@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-job-tracker-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for tracking job applications in Excel",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.4.1",
+    "google-spreadsheet": "^4.1.2",
+    "twilio": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "job-tracker",
+    "excel",
+    "twilio"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
